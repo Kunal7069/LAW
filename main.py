@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
-port = 9000
+port = 8888
 folder_path = "./files" 
 
 def initialize_model():
